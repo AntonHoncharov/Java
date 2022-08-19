@@ -1,8 +1,7 @@
 package com.javarush.task.pro.task12.task1212;
 
-/* 
-Создаем свой список
-*/
+
+import java.util.Arrays;
 
 public class CustomStringArrayList {
 
@@ -25,7 +24,8 @@ public class CustomStringArrayList {
     }
 
     private void grow() {
-
+        capacity*=1.5;
+        elements = Arrays.copyOf(elements,capacity);
     }
 
 }
