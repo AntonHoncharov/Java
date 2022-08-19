@@ -1,7 +1,5 @@
 package com.javarush.task.pro.task12.task1205;
 
-
-
 public class Solution {
 
     public static void main(String[] args) {
@@ -13,6 +11,6 @@ public class Solution {
     }
 
     public static void divide(double a, double b) {
-
+        System.out.println(a/b);
     }
 }
